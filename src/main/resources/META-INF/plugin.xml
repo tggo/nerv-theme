@@ -1,0 +1,41 @@
+<idea-plugin>
+    <id>com.wongmjane.nerv-theme</id>
+    <name>NERV Theme</name>
+    <version>1.0.0</version>
+    <vendor email="contact@wongmjane.com" url="https://wongmjane.com">Jane Manchun Wong</vendor>
+
+    <description><![CDATA[
+    <p>A dark editor theme inspired by 80s/90s cyberpunk interfaces, Evangelion's NERV headquarters, and the green-tinted cinematography of Wong Kar-wai.</p>
+
+    <p><strong>The Aesthetic:</strong> Deep oceanic greens meet warning-sign orange. Phosphor glow on aging CRT monitors. The quiet hum of a command terminal in an underground facility.</p>
+
+    <p><strong>Color Philosophy:</strong></p>
+    <ul>
+        <li><strong>Background:</strong> Deep sea darkness (#0a1612)</li>
+        <li><strong>Foreground:</strong> Muted sage (#8fb3a5)</li>
+        <li><strong>Accent:</strong> Signal orange (#e85d04)</li>
+        <li><strong>Functions:</strong> Subdued purple (#8a5a8a)</li>
+        <li><strong>Types:</strong> Industrial teal (#3a7a8c)</li>
+        <li><strong>Strings:</strong> Organic green (#4a8c5c)</li>
+    </ul>
+
+    <p>Ported from the original VS Code/Zed theme: <a href="https://github.com/wongmjane/nerv-theme">github.com/wongmjane/nerv-theme</a></p>
+    ]]></description>
+
+    <change-notes><![CDATA[
+    <p>1.0.0 - Initial release</p>
+    <ul>
+        <li>Full UI theme support for all JetBrains IDEs</li>
+        <li>Complete editor color scheme</li>
+        <li>Support for Go, Python, Java, Kotlin, JavaScript, TypeScript, and more</li>
+    </ul>
+    ]]></change-notes>
+
+    <idea-version since-build="193.0"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider id="com.wongmjane.nerv-theme" path="/themes/NERV.theme.json"/>
+    </extensions>
+</idea-plugin>

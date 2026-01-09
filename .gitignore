@@ -1,0 +1,26 @@
+# Gradle
+.gradle/
+build/
+out/
+.intellijPlatform/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local environment
+.env
+.env.local
+
+# Build outputs
+*.jar
+*.zip
