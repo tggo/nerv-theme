@@ -26,7 +26,7 @@ intellijPlatform {
         name = "NERV Theme"
         ideaVersion {
             sinceBuild = "233"
-            untilBuild = "251.*"
+            untilBuild = "253.*"
         }
     }
 
@@ -49,6 +49,10 @@ tasks {
 
     // Disable searchable options for theme-only plugins
     buildSearchableOptions {
+        enabled = false
+    }
+
+    prepareJarSearchableOptions {
         enabled = false
     }
 }
