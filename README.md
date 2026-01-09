@@ -9,12 +9,12 @@ A dark editor theme inspired by 80s/90s cyberpunk interfaces, Evangelion's NERV 
 Deep oceanic greens meet warning-sign orange. Phosphor glow on aging CRT monitors. The quiet hum of a command terminal in an underground facility.
 
 **Color Philosophy:**
-- **Background**: Deep sea darkness (`#0a1612`)
-- **Foreground**: Muted sage (`#8fb3a5`)
-- **Accent**: Signal orange (`#e85d04`)
-- **Functions**: Subdued purple (`#8a5a8a`)
-- **Types**: Industrial teal (`#3a7a8c`)
-- **Strings**: Organic green (`#4a8c5c`)
+- **Background**: Deep sea darkness (`#0a1612`) — the void behind the glass
+- **Foreground**: Muted sage (`#8fb3a5`) — easy on the eyes during extended operations
+- **Accent**: Signal orange (`#e85d04`) — urgent, alive, impossible to ignore
+- **Functions**: Subdued purple (`#8a5a8a`) — mysterious systems at work
+- **Types**: Industrial teal (`#3a7a8c`) — structural, foundational
+- **Strings**: Organic green (`#4a8c5c`) — data in motion
 
 ## Supported IDEs
 
